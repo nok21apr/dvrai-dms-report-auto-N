@@ -605,7 +605,7 @@ async function clickByXPath(page, xpath, description = 'Element', timeout = 1000
         console.log(`8. Sending Email...`);
         await sendEmail(
             `THAI TRACKING DMS REPORT: ${todayStr}`, 
-            `ถึง ผู้เกี่ยวข้อง\nรายงาน THAI TRACKING DMS REPORT รอบ 18:00 ถึง 06:00 น.`, 
+            `ถึง ผู้เกี่ยวข้อง\nรายงาน THAI TRACKING DMS REPORT รอบ 18:00 ถึง 06:00 น.\nด้วยความนับถือ\nฺBOT REPORT`, 
             downloadedFile
         );
 
